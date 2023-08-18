@@ -1,0 +1,10 @@
+@each $color-group, $colors-list in $colors {
+    @each $color-name, $color-value in $colors-list {
+      .bg-#{$color-group}#{$color-name} {
+        background-color: $color-value;
+      }
+      .text-#{$color-group}#{$color-name} {
+        color: $color-value;
+      }
+    }
+  }

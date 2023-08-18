@@ -1,0 +1,12 @@
+.navbar{
+    font-family: "Merriweather", serif;
+    padding: 0px 150px;
+    height: 84px;
+    .p-menubar-root-list {
+    flex: 1;
+    justify-content: flex-end;
+    }
+    .p-menubar-root-list li{
+        text-transform: uppercase;
+    }
+}
