@@ -5,8 +5,12 @@
     .p-menubar-root-list {
     flex: 1;
     justify-content: flex-end;
+    gap: 40px;
     }
     .p-menubar-root-list li{
         text-transform: uppercase;
+    }
+    button{
+        margin-left: 60px;
     }
 }
