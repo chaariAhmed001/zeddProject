@@ -1,0 +1,17 @@
+.sectionTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold; 
+    h1{
+        font-size: 54px;
+        line-height: 72px; 
+    }
+    h3{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    
+}

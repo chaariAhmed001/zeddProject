@@ -2,13 +2,13 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: [
-    'assets/global.scss',
-    
+    "assets/global.scss",
+
     "primevue/resources/themes/lara-light-blue/theme.css",
-    'primeicons/primeicons.css',
-    'assets/thems/index.scss',
+    "primeicons/primeicons.css",
+    "assets/thems/index.scss",
   ],
   build: {
-		transpile: ["primevue"]
-	}
-})
+    transpile: ["primevue"],
+  },
+});

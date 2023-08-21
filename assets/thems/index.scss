@@ -7,6 +7,11 @@
 @import "colors";
 
 // components (button, card, navbar etc)
-@import "./navbar/navbar.scss";
+@import "./components/navbar.scss";
+@import "./components/button.scss";
+@import "./components/sectionTitle.scss";
+@import "./components/ourWork.scss";
+@import "./components/testimonial.scss";
+@import "./components/ContactUs.scss";
 
 // utilities (margin, padding, opacity, etc)

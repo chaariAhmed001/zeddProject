@@ -6,5 +6,10 @@
       .text-#{$color-group}#{$color-name} {
         color: $color-value;
       }
+      .bg-hover-#{$color-group}#{$color-name}{
+        &:hover{
+          background-color: $color-value !important;
+        }
+      }
     }
   }

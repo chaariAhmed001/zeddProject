@@ -1,0 +1,72 @@
+.testimonial-container{
+    padding: 100px 0px;
+    position: relative;
+    img{
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        object-fit: cover;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); 
+
+    }
+    .p-carousel-indicators{
+        display: none;
+    }
+    .p-carousel-items-content{
+        gap: 20px;
+        .p-carousel-item{
+            width: 412px;
+            height: 577px;
+            padding: 30px 20px;
+            border: solid 1px #949494;
+            border-radius: 1680px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 20px;
+        }
+        .card-header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+            .p-rating-item 
+            {
+                margin-bottom: 24px;
+                svg
+                {
+                color: #FF5678;
+                }
+            }
+        }
+        p{
+            text-align: center;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 23px;
+        }
+        .card-body{
+            margin-bottom: 46px;
+        }
+    }
+    .Carousel-card{
+        button{
+        position: absolute;
+        bottom: 50px;
+        }
+        .p-carousel-next{
+            right: 32px;
+        }
+
+        .p-carousel-prev{
+            left: 32px;
+        }
+        .p-carousel-prev,.p-carousel-next
+        {
+            background-color: #2B2B2B;
+            color: white;
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
